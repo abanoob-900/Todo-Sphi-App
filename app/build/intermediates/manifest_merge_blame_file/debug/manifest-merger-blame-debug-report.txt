@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bob.todo_sphi_app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:5:5-71:19
+12        android:allowBackup="true"
+12-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.0] C:\Users\20102\.gradle\caches\transforms-3\1a13e9093b391f2d86e34d05488e1a8f\transformed\core-1.0.0\AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher_todo"
+15-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:7:9-48
+16        android:label="@string/app_name"
+16-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity
+21-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:12:9-21:20
+22            android:name="com.bob.todo_sphi_app.activities.TodoListActivity"
+22-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:13:13-77
+23            android:exported="true"
+23-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:15:13-36
+24            android:launchMode="singleTop" >
+24-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:14:13-43
+25            <intent-filter>
+25-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:16:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:17:17-69
+26-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:19:17-77
+28-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:23:9-30:20
+32            android:name="com.bob.todo_sphi_app.activities.SettingsActivity"
+32-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:24:13-77
+33            android:exported="false"
+33-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:26:13-37
+34            android:parentActivityName="com.bob.todo_sphi_app.activities.TodoListActivity" >
+34-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:25:13-91
+35            <meta-data
+35-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:27:13-29:85
+36                android:name="android.support.PARENT_ACTIVITY"
+36-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:28:17-63
+37                android:value="com.bob.todo_sphi_app.activities.TodoListActivity" />
+37-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:29:17-82
+38        </activity>
+39        <activity
+39-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:32:9-39:20
+40            android:name="com.bob.todo_sphi_app.activities.AddOrEditTaskActivity"
+40-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:33:13-82
+41            android:exported="false"
+41-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:35:13-37
+42            android:parentActivityName="com.bob.todo_sphi_app.activities.TodoListActivity" >
+42-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:34:13-91
+43            <meta-data
+43-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:27:13-29:85
+44                android:name="android.support.PARENT_ACTIVITY"
+44-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:28:17-63
+45                android:value="com.bob.todo_sphi_app.activities.TodoListActivity" />
+45-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:29:17-82
+46        </activity>
+47
+48        <provider
+48-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:41:9-44:40
+49            android:name="com.bob.todo_sphi_app.data.TodoListProvider"
+49-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:42:13-71
+50            android:authorities="com.bob.todo_sphi_app"
+50-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:43:13-56
+51            android:exported="false" />
+51-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:44:13-37
+52
+53        <receiver
+53-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:46:9-55:20
+54            android:name="com.bob.todo_sphi_app.widget.TodoListWidgetProvider"
+54-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:46:19-85
+55            android:exported="false" >
+55-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:47:13-37
+56            <intent-filter>
+56-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:48:13-50:29
+57                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+57-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:49:17-84
+57-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:49:25-81
+58            </intent-filter>
+59
+60            <meta-data
+60-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:52:13-54:65
+61                android:name="android.appwidget.provider"
+61-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:53:17-58
+62                android:resource="@xml/todo_list_widget_info" />
+62-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:54:17-62
+63        </receiver>
+64
+65        <service
+65-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:57:9-60:48
+66            android:name="com.bob.todo_sphi_app.widget.TodoListWidgetRemoteViewsService"
+66-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:58:13-89
+67            android:exported="false"
+67-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:60:13-37
+68            android:permission="android.permission.BIND_REMOTEVIEWS" />
+68-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:59:13-69
+69
+70        <receiver
+70-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:62:9-65:49
+71            android:name="com.bob.todo_sphi_app.broadcast_receivers.DailyAlarmReceiver"
+71-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:63:13-88
+72            android:exported="false"
+72-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:65:13-37
+73            android:process=":remote" />
+73-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:64:13-38
+74
+75        <service
+75-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:67:9-69:40
+76            android:name="com.bob.todo_sphi_app.services.DueCheckIntentService"
+76-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:68:13-80
+77            android:exported="false" />
+77-->D:\Abanoob Projects 2022\bob\Todo-Sphi-App\app\src\main\AndroidManifest.xml:69:13-37
+78    </application>
+79
+80</manifest>

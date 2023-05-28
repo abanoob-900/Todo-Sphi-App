@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Abanoob Projects 2022\\bob\\Todo-Sphi-App\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_add_or_edit_task.xml",
+        "source": "D:\\Abanoob Projects 2022\\bob\\Todo-Sphi-App\\app\\src\\main\\res\\layout\\activity_add_or_edit_task.xml"
+    },
+    {
+        "merged": "D:\\Abanoob Projects 2022\\bob\\Todo-Sphi-App\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_todo_list.xml",
+        "source": "D:\\Abanoob Projects 2022\\bob\\Todo-Sphi-App\\app\\src\\main\\res\\layout\\activity_todo_list.xml"
+    }
+]

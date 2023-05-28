@@ -1,0 +1,48 @@
+com/bob/todo_sphi_app/utils/NotificationUtils.java
+ com.bob.todo_sphi_app.utils.NotificationUtils
+com/bob/todo_sphi_app/custom_views/PriorityStarImageView.java
+ com.bob.todo_sphi_app.custom_views.PriorityStarImageView
+com/bob/todo_sphi_app/DataBindingTriggerClass.java
+ com.bob.todo_sphi_app.DataBindingTriggerClass
+com/bob/todo_sphi_app/data/TodoListProvider.java
+ com.bob.todo_sphi_app.data.TodoListProvider
+com/bob/todo_sphi_app/data/TodoListDbHelper.java
+ com.bob.todo_sphi_app.data.TodoListDbHelper
+com/bob/todo_sphi_app/services/DueCheckIntentService.java
+ com.bob.todo_sphi_app.services.DueCheckIntentService
+com/bob/todo_sphi_app/models/TodoTask.java
+ com.bob.todo_sphi_app.models.TodoTask
+ com.bob.todo_sphi_app.models.TodoTask$1
+com/bob/todo_sphi_app/BuildConfig.java
+ com.bob.todo_sphi_app.BuildConfig
+com/bob/todo_sphi_app/databinding/ActivityAddOrEditTaskBinding.java
+ com.bob.todo_sphi_app.databinding.ActivityAddOrEditTaskBinding
+com/bob/todo_sphi_app/fragments/SettingsFragment.java
+ com.bob.todo_sphi_app.fragments.SettingsFragment
+com/bob/todo_sphi_app/broadcast_receivers/DailyAlarmReceiver.java
+ com.bob.todo_sphi_app.broadcast_receivers.DailyAlarmReceiver
+com/bob/todo_sphi_app/databinding/ActivityTodoListBinding.java
+ com.bob.todo_sphi_app.databinding.ActivityTodoListBinding
+com/bob/todo_sphi_app/widget/TodoListWidgetRemoteViewsFactory.java
+ com.bob.todo_sphi_app.widget.TodoListWidgetRemoteViewsFactory
+com/bob/todo_sphi_app/data/TodoListContract.java
+ com.bob.todo_sphi_app.data.TodoListContract
+ com.bob.todo_sphi_app.data.TodoListContract$TodoListEntry
+com/bob/todo_sphi_app/activities/SettingsActivity.java
+ com.bob.todo_sphi_app.activities.SettingsActivity
+com/bob/todo_sphi_app/utils/TodoDateUtils.java
+ com.bob.todo_sphi_app.utils.TodoDateUtils
+com/bob/todo_sphi_app/adapters/TodoListAdapter.java
+ com.bob.todo_sphi_app.adapters.TodoListAdapter
+ com.bob.todo_sphi_app.adapters.TodoListAdapter$TodoListAdapterOnClickHandler
+ com.bob.todo_sphi_app.adapters.TodoListAdapter$TodoListAdapterViewHolder
+com/bob/todo_sphi_app/widget/TodoListWidgetRemoteViewsService.java
+ com.bob.todo_sphi_app.widget.TodoListWidgetRemoteViewsService
+com/bob/todo_sphi_app/activities/AddOrEditTaskActivity.java
+ com.bob.todo_sphi_app.activities.AddOrEditTaskActivity
+com/bob/todo_sphi_app/activities/TodoListActivity.java
+ com.bob.todo_sphi_app.activities.TodoListActivity
+ com.bob.todo_sphi_app.activities.TodoListActivity$1
+ com.bob.todo_sphi_app.activities.TodoListActivity$2
+com/bob/todo_sphi_app/widget/TodoListWidgetProvider.java
+ com.bob.todo_sphi_app.widget.TodoListWidgetProvider

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#2196F3</color>
+    <color name="colorPrimaryLight">#C8E6C9</color>
+    <color name="colorAccent">#3F51B5</color>
+    <color name="colorOverdue">#FF5722</color>
+    <color name="colorCompleted">#9E9E9E</color>
+    <color name="colorCompletedBackground">#EEEEEE</color>
+    <color name="colorUncompletedBackground">#FFFFFF</color>
+    <color name="colorNormalWidgetText">#757575</color>
+</resources>
